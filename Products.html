@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Products</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0; /* soft pink */
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .category {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .category h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .product-name {
+            font-weight: bold;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .product-description {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="header">
+        <img src="images/shrija.jpg" alt="Shrija Perfumes Logo" style="height: 200px; vertical-align: middle; margin-bottom: 10px;">
+        <h1 style="
+            font-size: 3em;
+            font-family: 'Georgia', serif;
+            color: #c2185b;
+            margin: 0;
+            text-align: center;
+            letter-spacing: 2px;
+        ">
+            Shrija Perfumes
+        </h1>
+    </div>
+
+
+    <div class="category" style="background-color: #ffd6d6;">
+        <h2>🌸 Floral Perfumes</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="images/chameli.jpeg" alt="Chameli Attar" class="product-image">
+                <div class="product-name">Chameli Attar</div>
+                <div class="product-description">A strong and exotic floral fragrance extracted from jasmine flowers.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/champa.jpg" alt="Champa Attar" class="product-image">
+                <div class="product-name">Champa Attar</div>
+                <div class="product-description">A sweet and fresh scent from champa blossoms, rich and calming.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/jasmine.jpg" alt="Jasmine Attar" class="product-image">
+                <div class="product-name">Jasmine Attar</div>
+                <div class="product-description">Soft and sensual fragrance that captures the soul of blooming jasmine.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/rose.webp" alt="Rose Attar" class="product-image">
+                <div class="product-name">Rose Attar</div>
+                <div class="product-description">Classic rose scent, pure and elegant, with romantic floral notes.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/tuberose.jpg" alt="Tuberose Attar" class="product-image">
+                <div class="product-name">Tuberose Attar (Rajnigandha)</div>
+                <div class="product-description">Sweet and slightly spicy, known for its night-blooming sensual aroma.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/kewra-attar.jpg" alt="Kewra Attar" class="product-image">
+                <div class="product-name">Kewra Attar</div>
+                <div class="product-description">Refreshing floral scent with notes of pandanus flowers, often used in rituals.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category" style="background-color: #d6f5d6;">
+        <h2>🌲 Woody Perfumes</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="images/oud.jpg" alt="Oud Attar" class="product-image">
+                <div class="product-name">Oud Attar</div>
+                <div class="product-description">Deep, smoky aroma with rich, luxurious woody notes from agarwood.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/sandalwood.png" alt="Sandalwood Attar" class="product-image">
+                <div class="product-name">Sandalwood Attar</div>
+                <div class="product-description">Earthy and creamy fragrance from the heartwood of sandal trees.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/amber.png" alt="Amber Oud" class="product-image">
+                <div class="product-name">Amber Oud</div>
+                <div class="product-description">Warm amber blended with exotic oud for a rich, lasting presence.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/shamama.jpg" alt="Shamama Attar" class="product-image">
+                <div class="product-name">Shamama Attar</div>
+                <div class="product-description">A complex blend of herbs and spices aged in sandalwood oil.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/white-oud.webp" alt="White Oud" class="product-image">
+                <div class="product-name">White Oud</div>
+                <div class="product-description">A clean, fresh take on traditional oud with subtle woodsy undertones.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/oudalina.webp" alt="Oud Alina" class="product-image">
+                <div class="product-name">Oud Alina</div>
+                <div class="product-description">Mystical and woody, with a bold aromatic signature of oud blends.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category" style="background-color: #ffe5b4;">
+        <h2>🍊 Fruity Perfumes</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="images/fulwari.jpg" alt="Fulwari Green" class="product-image">
+                <div class="product-name">Fulwari Green</div>
+                <div class="product-description">Lively fruity blend with floral green notes, refreshing and crisp.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/bluelotus.png" alt="Blue Lotus Attar" class="product-image">
+                <div class="product-name">Blue Lotus Attar</div>
+                <div class="product-description">Fruity-floral fusion with delicate aquatic sweetness and depth.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/mitti.png" alt="Mitti Attar" class="product-image">
+                <div class="product-name">Mitti Attar (Soil, Earth)</div>
+                <div class="product-description">Evokes the scent of first rain on dry earth with sweet fruitlike undertones.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/royalblack.webp" alt="Royal Black" class="product-image">
+                <div class="product-name">Royal Black</div>
+                <div class="product-description">Bold fruity opening that melts into rich, warm base notes.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/armaf.jpg" alt="Armaaf" class="product-image">
+                <div class="product-name">Armaaf</div>
+                <div class="product-description">Fruity top with a heart of spices, musk, and deep sweetness.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/afsan.jpg" alt="Afsaan" class="product-image">
+                <div class="product-name">Afsaan</div>
+                <div class="product-description">Exotic fruit notes layered with mystic floral and woody tones.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category" style="background-color: #d6eaff;">
+        <h2>💧 Fresh Perfumes</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="images/nargis.jpeg" alt="Nargis Attar" class="product-image">
+                <div class="product-name">Nargis Attar</div>
+                <div class="product-description">Light and airy, perfect for everyday wear with subtle floral tones.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/whiterose.jpg" alt="White Rose" class="product-image">
+                <div class="product-name">White Rose</div>
+                <div class="product-description">Delicate and crisp rose aroma with soft, fresh notes.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/bluemusk.webp" alt="Moroccan Musk Blue Attar" class="product-image">
+                <div class="product-name">Moroccan Musk Blue Attar</div>
+                <div class="product-description">Clean, fresh musk blended with subtle blue aquatic hints.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/rosemusk.jpg" alt="Moroccan Musk Rose Attar" class="product-image">
+                <div class="product-name">Moroccan Musk Rose Attar</div>
+                <div class="product-description">Fresh and rosy musk fusion with a soothing effect.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/kesar.webp" alt="Moroccan Musk Kesar Attar" class="product-image">
+                <div class="product-name">Moroccan Musk Kesar Attar</div>
+                <div class="product-description">Freshness of saffron-laced musk, uplifting and rich.</div>
+            </div>
+            <div class="product-card">
+                <img src="images/frangipani.jpeg" alt="Frangipani Attar" class="product-image">
+                <div class="product-name">Frangipani Attar</div>
+                <div class="product-description">Tropical floral freshness with hints of citrus and green herbs.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
